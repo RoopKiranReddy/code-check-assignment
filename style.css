@@ -1,0 +1,287 @@
+body{
+    /* background-image: url(https://media.istockphoto.com/id/1353874144/photo/astronaut-in-outer-space-spaceman-with-starry-and-galactic-background-sci-fi-digital-wallpaper.jpg?b=1&s=170667a&w=0&k=20&c=LRMYAkYVE3Jgjbg0YuYN1VRm9LFvys1eecZNTH2cTGg=); */
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    font-family: roboto;
+    
+}
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+}
+.light-theme{
+    --primary-color:ghostwhite;
+    --secondary-color:#212121;
+}
+
+#icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    opacity: 1;
+    margin: 10px;
+    cursor: pointer;
+}
+.mainheading{
+    color:var(--secondary-color);
+    padding: auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.main-search{
+    margin:20px;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.searchbox{
+    height: auto;
+    width: auto;
+    border: 5px;
+    border-color:var(--primary-color);
+    margin-top:4px;
+    border-radius:5px;
+}
+.searchbtn{
+    height: auto;
+    width: auto;
+    background-color: green;
+    color:var(--secondary-color);
+    border-radius:5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-item{
+    color:var(--secondary-color);
+    padding: 5px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: 2px ;
+    border-color:var(--secondary-color);
+    cursor: pointer;
+}
+
+.nav-link{
+    color:var(--secondary-color);
+    padding: 5px;
+    margin: 4px;
+    height: auto;
+    width: auto;
+    border: 2px ;
+    border-color: var(--secondary-color);
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: yellow;
+    background-color:var(--secondary-color);
+}
+.navbar-section{
+    background-color:var(--primary-color);
+    
+    opacity: 1;
+}
+.navbar-toggler{
+    background-color: var(--secondary-color);
+    opacity: 1;
+    
+}
+.navbar-list{
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-items{
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin: 4px;
+    color: var(--secondary-color);
+    opacity: 0.8;
+    font-size: 15px;
+    list-style: none;
+    border-right:2px solid;
+    border-color:var(--secondary-color);
+    word-spacing: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-items:hover{
+    color: var(--secondary-color);
+    background-color:var(--primary-color);
+}
+.historic{
+   background-image: url(https://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq_2022_tyn_1223_thumb.png);
+   height: 500px;
+   width: 100%;
+   background-size: cover !important;
+   background-repeat: no-repeat;
+}
+.historic:hover{
+    opacity: 0.5;
+}
+
+.Spacewalkers{
+    background-image: url(https://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss068e031766_122222.jpeg);
+    height: 500px;
+    width: 100%;
+    background-size:cover !important;
+    background-repeat:no-repeat;
+    border: 0px solid;
+}
+.Spacewalkers:hover{
+    opacity: 0.5;
+}
+.nasaEvents{
+    height: 500px;
+    width:100%;
+    background-color: lightblue;
+    border: 0px solid;
+    font-size: 10px;
+    color:var(--secondary-color);
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+.hubble{
+    background-image: url(https://www.nasa.gov/sites/default/files/styles/2x1_cardfeed/public/thumbnails/image/28223588012_33c7051b12_o.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+}
+.hubble:hover{
+    opacity: 0.5;
+}
+.wise{
+    background-image: url(https://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/1_pia25253-neo-1041.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+}
+.wise:hover{
+    opacity: 0.5;
+}
+
+.marsRover{
+    background-image: url(https://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/1-pia25652-figure-a-stretched-cropped-1041.jpg);
+    height: 250px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    cursor: pointer;
+}
+.marsRover:hover{
+    opacity: 0.5;
+}
+
+.contenthead{
+    height: auto;
+    width: 30%;
+    font-weight: bold;
+    color: var(--secondary-color);
+    border: 0px solid;
+    background-color: lightblue;
+    text-align: center;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.fottermore{
+    background-color: lightblue;
+    color:var(--secondary-color);
+    font-weight: bold;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fottermore:hover{
+    opacity: 0.5;
+    color:midnightblue;
+}
+.fotternasa{
+    color: var(--secondary-color);
+    padding: 10px;
+    margin: 20px;
+}
+.fotter-item{
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.fotter-item:hover{
+    color: var(--secondary-color);
+}
+.copy-rit{
+    color: var(--secondary-color);
+}
+
+.coupon{
+    height:auto;
+    width:auto;
+    position:absolute;
+    background-color:ghostwhite;
+    background-size: cover;
+    border-radius: 30px;
+    z-index: 1000;
+    display:none;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#i-section{
+    background-size: cover;
+    height: 50%;
+    width: 60%; 
+    border: 0px;
+    border-radius: 3%;
+    cursor: pointer;
+}
+#i-section:hover{
+    opacity: 0.8;
+}
+.perc-sect{
+    font-size:2cm;
+    color:goldenrod
+}
+
+.btn-section{
+    height: auto;
+    width: auto;
+    margin: 4%;
+    padding: auto;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color: ghostwhite;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-section:hover{
+    color:white;
+    background-color: black;
+}
+.coupon-text{
+   font-weight: bold;
+   margin: 4%;
+   font-size: 1.5cm;
+}
+.coupon-text:hover{
+    color: rebeccapurple;
+}
