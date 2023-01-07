@@ -109,7 +109,6 @@ body{
     list-style: none;
     border-right:2px solid;
     border-color:var(--secondary-color);
-    word-spacing: 10px;
     font-weight: bold;
     cursor: pointer;
 }
