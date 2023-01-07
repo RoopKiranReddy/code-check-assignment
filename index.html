@@ -79,36 +79,38 @@
                     <p class="h3 fw-bold m-2">GIVE YOUR NAME TO UNKOWN ISLAND</p>
                 </div>
                 <div>
-                    <img src="./images/island.jpg" id="i-section"/>
+                    <img src="./images/island.jpg" id="i-section" />
                 </div>
                 <button class="btn-section">open</button>
                 <button class="btn-section" onClick="closeCoupon()">Close</button>
             </div>
         </div>
         <header>
-            <div class="d-flex flex-row justify-content-between">
-                <div class="nasalogo">
+            <div class="d-flex flex-lg-row flex-column  justify-content-lg-between">
+                <div class="nasalogo text-xs-center text-sm-center text-md-center ">
                     <a href="https://www.nasa.gov/"><img
                             src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" /> </a>
                 </div>
                 <div>
                     <h1 class="mainheading fw-bold fst-italic">National Aeronautics and Space Administration</h1>
                 </div>
-                <div class="main-search">
-                    <input type="text" name="search" placeholder="Search" class="searchbox text-primary text-decoration-underline">
-                    <button class="searchbtn">Search</button>
-                </div>
+                    <div class="main-search">
+                        <input type="text" name="search" placeholder="Search"
+                            class="searchbox text-primary text-decoration-underline">
+                        <button class="searchbtn">Search</button>
+                    </div>
+               
             </div>
         </header>
         <navbar>
-            <ul class="navbar-list d-flex flex-row justify-content-center">
-                <li class="nav-items">Human in space</li>
-                <li class="nav-items"> Moon to Masrs</li>
-                <li class="nav-items">Earth</li>
-                <li class="nav-items">Space Tech</li>
-                <li class="nav-items">Flight</li>
-                <li class="nav-items">Solar System and Beyond</li>
-                <li class="nav-items">STEM Engagement</li>
+            <ul class="navbar-list d-flex flex-lg-row flex-column justify-content-lg-center">
+                <li class="nav-items text-sm-start">Human in space</li>
+                <li class="nav-items text-sm-start"> Moon to Masrs</li>
+                <li class="nav-items text-sm-start">Earth</li>
+                <li class="nav-items text-sm-start">Space Tech</li>
+                <li class="nav-items text-sm-start">Flight</li>
+                <li class="nav-items text-sm-start">Solar System and Beyond</li>
+                <li class="nav-items text-sm-start">STEM Engagement</li>
             </ul>
         </navbar>
         <div class="row">
@@ -174,10 +176,10 @@
             <a> MORE STORIES </a>
         </div>
         <footer>
-            <div class="container d-flex flex-row">
+            <div class="container d-flex flex-xs-column flex-sm-column  flex-md-row  flex-lg-row">
                 <img src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" height="150px"
                     width="150px" />
-                <span class="fotternasa d-flex flex-column">
+                <span class="fotternasa d-flex  flex-column">
                     <p class="fw-bold">National Aeronautics and Space Administration</p>
                     <p class="fw-bold">NASA Official: Brian Dunbar</p>
                 </span>
@@ -231,6 +233,9 @@
     <script>
         window.onload = loadCoupon()    
     </script>
+    <!-- <script>
+        alert("Before you use the page use the coupon or close the coupon")
+    </script> -->
 </body>
 
 </html>
